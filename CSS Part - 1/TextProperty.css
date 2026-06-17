@@ -1,0 +1,20 @@
+h1 {
+    text-align: center; /*Text-align Property*/
+    font-weight: lighter; /*font-weight basically means darker or lighter appearence of font*/
+    text-decoration: overline; /*set the appearence of decoritive lines on text like undeline we can set it's color & style by writing for eg. text-decoration-color*/
+}
+p {
+    text-align: right; /*Text-align Property*/
+    text-decoration: dotted;
+    text-decoration-color: aqua;
+    line-height: 2.5; /*Height Settings of Line or Text*/
+    letter-spacing: 2.5px; /*Letter Spacing to create space btw words*/
+    font-size: 15px; /*font size settings*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: blue;  /*can set the color for text-decoration*/
+    text-decoration-style: dotted;  /*can set the style for text-decoration*/
+}

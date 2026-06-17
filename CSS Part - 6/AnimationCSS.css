@@ -1,0 +1,43 @@
+.box {
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+    /*Animation setup*/
+    animation-name: textAnimation;
+    animation-duration: 1ms;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+/*Animation Blueprint function*/
+@keyframes FontAnimation {
+    from {
+        font-size: 20px;
+    }
+    to {
+        font-size: 40px;
+    }
+}
+@keyframes ColorChange {
+    from {
+        background-color: aqua;
+    }
+    to {
+        background-color: blueviolet;
+    }
+}
+/*Animation Blueprint %*/ 
+@keyframes textAnimation {
+    0% {
+        font-size: 20px;
+    } 25% {
+        font-size: 40px;
+    } 50% {
+        font-size: 60px;
+    } 75% {
+        font-size: 80px;
+    } 100% {
+        font-size: 100px;
+    }
+}

@@ -1,0 +1,6 @@
+classList :- used for styling
+
+classList.add() - to add new classes
+classList.remove() - to remove classes
+classList.contains() - to check if class exists (check for existance)
+classList.toggle() - to toggle between add & remove  (true/false)

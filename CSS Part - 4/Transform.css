@@ -1,0 +1,37 @@
+section {
+    margin-top: 100px;
+}
+
+div {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+div:nth-of-type(2n) {
+    background-color: #f7db6a;
+}
+
+div:nth-of-type(3n) {
+    background-color: bisque;
+}
+
+/*Transform Properties*/
+#one {
+    transform: rotate(180deg);  /*Rotating Property*/
+}
+#two {
+    transform: scale(0.5,2); /*Scaling Property:- when use it for particulary X & Y & Z as well*/
+}
+#three {
+    transform: translate(100px,100px); /*Translate property is moving in X & Y axis we can also move on specific x & y axis as well + & -ve sign can we use to shift left & right as well*/
+}
+#four {
+    transform: skew(45deg);  /*skew :- Stretching & pull of box*/
+}
+#five {
+    transform: translateX(89px) rotate(175deg); /*alternate way to use skew*/
+}

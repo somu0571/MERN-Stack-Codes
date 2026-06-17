@@ -1,0 +1,8 @@
+div {
+    height: 200px;
+    width: 400px;
+    margin: 10px auto;
+    background-color: green;
+    background-image: url("bgimg.jpg");
+    background-size: contain; /*It will fit the image size as well*/
+}

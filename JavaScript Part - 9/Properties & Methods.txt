@@ -1,0 +1,8 @@
+1. innerText
+Shows the visible text contained in a node
+
+2. textContent
+Show all the full text
+
+3. innerHTML
+Show the full markup

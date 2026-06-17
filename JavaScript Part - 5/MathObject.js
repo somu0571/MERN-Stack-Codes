@@ -1,0 +1,5 @@
+// Math.abs(n)
+// Math.pow(a,b)
+// Math.floor(n)
+// Math.ceil(n)
+// Math.random()

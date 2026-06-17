@@ -1,0 +1,12 @@
+h1 {
+    color: blueviolet;
+}
+p {
+    color: aqua;
+    background-color: blueviolet;
+}
+
+h2 {
+    /* color: rgb(255, 255, 0); */    /*use of RGB format*/
+    color : #ff00ff;  /*Hexcode use*/
+}

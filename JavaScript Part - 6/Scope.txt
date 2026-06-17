@@ -1,0 +1,7 @@
+Scope determine the accessibility of variable, object, & functions from different
+parts of the code.
+
+1. functions :- Variable defined inside a function are not accessible (visible) from outside the function
+2. Block :- Variable declared inside a {} block cannot be accessed from outside the block
+3. Lexical :- Variable defined outside a function can be accessible inside another function defined after the variable declaration.
+   The opposite is NOT true.

@@ -1,0 +1,14 @@
+div {
+    height: 300px;
+    width: 300px;
+    background-color: limegreen;
+    transition-duration: 1s;  /*Transistion property is used for smooth animations  duration how much time the effect will */
+    transition-delay: 1s; /*Delay how much time it will there*/
+}
+div:hover {
+    background-color: orange;
+    border-radius: 50%;
+}
+div:active {
+    background-color: yellow;
+}

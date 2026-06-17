@@ -1,0 +1,90 @@
+* { /*Universal Selector :- used to apply styling in entire document*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3 { /*Element Selector :- if you same type elements by using this , we can apply styling*/
+    color: #b92b27;
+}
+
+h1 { /*Element Selector note :- if we want to give same colour for 2 different element just use comma btw them eg. h1,h3*/
+    color: #b92b27;
+}
+
+#login { /*Id Selector :- used when the element tag has assigned an unique*/
+    background-color: #ffffff;
+}
+#signup {
+    background-color: #b92b27;
+    color : #ffffff;
+}
+
+.upvote { /*Class Selector :- same as Id Selector but it uses '.' & '#'*/
+    background-color: #00ff00;
+    color: #00ff;
+}
+
+.post a { /*descentent Selector (Child-parent) selection*/
+    color: purple;
+    text-decoration: none;
+    background-color: yellow;
+}
+
+nav ul li a {
+    color: hotpink;
+}
+
+p + h3 { /*Sibling Adjacent Combinator*/
+    text-decoration: none;
+}
+.upvote + button {
+    background-color: aqua;
+    color: #ffffff;
+}
+
+div > input {  /*Child Combinator*/
+    background-color: black;
+}
+
+input[type="text"] { /*Atribute Selector*/
+    color: #b92b27;
+}
+
+/*pseudo class*/
+button:hover {  /*hover :- when cursor is near button , it will reflect changes*/
+    color: aqua;
+    background-color: black;
+}
+
+h3:hover {
+    text-decoration: underline;
+}
+
+button:active { /*active :- when you click the button it will change the color*/
+    background-color: hotpink;
+}
+
+p:active {
+    font-weight: 700;
+    color: #00ff00;
+}
+
+input[id="rd1"]:checked + label {  /*checked :- when you check the box (means click) it will apply styling*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: pink;
+}
+div:nth-of-type(2) {  /*nth-of-type :- take n number to change color or vice versa*/
+    background-color: teal;
+}
+
+/*Pseudo Elements*/
+h1::first-letter {  /*::first-letter*/
+    color: #00ff00;
+}
+
+p::first-line {  /*::first-line*/
+    color: purple;
+}
+
+p::selection {  /*::selection*/
+    background-color: yellowgreen;
+}

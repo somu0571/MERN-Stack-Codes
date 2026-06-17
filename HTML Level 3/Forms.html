@@ -1,0 +1,40 @@
+<!--Forms in HTML-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="\action"> <!--sending the data to backend processes-->
+        Username
+        <input type="text" placeholder="Enter your username"> <!--Used Place holder to indicate user about input-->
+        <br>
+        Password
+        <input type="password">
+        <br>
+        Number
+        <input type="number">
+        <br>
+        Time
+        <input type="time">
+        <br>
+        Color
+        <input type="color">
+        <br>
+        <!--Label uses , kind of trigger the input tag-->
+        <label>
+            Username
+            <input type="text" placeholder="Enter your UN">
+        </label>
+        <div> <!--Div tag used , for block elements-->
+        <!--Label using id's-->
+        <label for="U">Password :</label>
+        <input type="password" id="U" placeholder="enter username">
+        </div>
+        <button>Submit</button>
+        <button type="reset">Submit2</button>
+    </form>
+</body>
+</html>

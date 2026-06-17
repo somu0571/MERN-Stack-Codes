@@ -1,0 +1,12 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: limegreen;
+    border: 20px solid black;
+    margin: 10px;
+    display: inline-block;  /* 3 Types of display Inline, block & inline-block*/
+}
+
+#third {
+    display: none;
+}

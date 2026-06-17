@@ -1,0 +1,32 @@
+#container {
+    height: 600px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex; /*display in row in parent container*/
+    flex-direction: row;  /*fix in the parent container in columns*/
+    justify-content: flex-start; /*distributing between & around the items along the main axis*/
+    /* flex-wrap: wrap; Wraping in one line or another line */
+    align-items: flex-start; /*distributing between & around the cross axis*/
+    align-content: flex-start; /*same as justify-content but at cross axis*/
+}
+#org {
+    align-self: flex-start; /*distribution of self container in cross axis*/
+    flex-basis: 50px; /*sizing cross axis*/
+    flex-grow: 1; /*sizing main axis*/
+}
+#blu {
+    flex-grow: 1; 
+    flex-shrink: 1; /*shrink flex elements*/
+}
+h1 {
+    text-align: center;
+}
+#container div {
+    height: 100px;
+    width: 50px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}

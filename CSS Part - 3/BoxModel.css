@@ -1,0 +1,32 @@
+div {
+    height: 200px;
+    width: 300px;
+    background-color: pink;
+
+    /*Border Property*/
+    /* border-width: 5px;   
+    border-style: solid;
+    border-color: black; */
+
+    /*border short hand*/
+    border: 5px solid black;
+
+    /*Giving styles in particular area of box model*/
+    border-left-color: aqua;
+    border-right-style: dashed;
+    border-radius: 0px;   /*Border Radius*/
+    border-top-right-radius: 50px;  /*We can also set border radius for particular region in the box*/
+    padding-top: 20px; /*padding :- use to provide space btw box model & content, can be used for different area of box model as well*/
+    margin-top: 10px; /*Margin :- it provides margin btw box model basically breaks the boxes that are join together*/
+}
+h1 {
+    border-width: 5px;
+    border-color: greenyellow;
+    border-style: dotted;
+}
+button {
+    border-radius: 20px;
+    padding-right: 5px;
+    padding-left: 5px;  /*Padding can also be written in short hand*/
+    margin-top: 10px;
+}

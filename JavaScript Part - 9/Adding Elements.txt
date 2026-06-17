@@ -1,0 +1,8 @@
+Adding Elements
+
+document.createElement('p');
+
+appendChild(element)
+append(element)
+prepend(element)
+insertAdjacent(where,element)

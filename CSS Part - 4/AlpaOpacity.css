@@ -1,0 +1,9 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 0, 0, 0.5); /*Alpa is used for color opacity , whereas opacity is used for element's opacity*/
+}
+#opacity {
+    background-color: yellow;
+    opacity: 0;  /*0 makes the element completely disappear*/
+}
