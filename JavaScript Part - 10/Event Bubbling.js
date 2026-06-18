@@ -1,0 +1,12 @@
+let div = document.querySelector("div");
+let ul = document.querySelector("ul");
+let lis = document.querySelector("li");
+
+div.addEventListener("click",function(event) {
+    event.stopPropagation();
+    console.log("div was clicked");
+});
+
+ul.addEventListener("click",function() {
+    console.log("ul was clicked");
+})
