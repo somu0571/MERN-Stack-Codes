@@ -13,7 +13,11 @@ div{
     padding: 30px;
     border-radius: 15px;
     width: 400px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    box-shadow: 0 8px 20px rgb(0,0,0,0.2);
+}
+div:hover {
+    box-shadow: 0 8px 20px yellow;
+    transition-delay: 2ms;
 }
 
 h1{
