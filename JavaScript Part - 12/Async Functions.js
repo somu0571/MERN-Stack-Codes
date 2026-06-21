@@ -146,7 +146,7 @@ function show(colleges) {
 
 async function getColleges(country) {
     try {
-        let res = await axios.get(url+country);
+        let res = await axios.get(url+country);  // axios used for http request sending in JS
         return res.data;
     } catch(e) {
         console.log("error : ",e);
