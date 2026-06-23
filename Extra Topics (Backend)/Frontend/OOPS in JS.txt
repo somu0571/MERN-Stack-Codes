@@ -1,0 +1,18 @@
+Object Prototypes 
+=> Prototypes are the mechanism by which JavaScript objects inherit features from one another.
+
+arr._proto_(reference)
+Array.prototype(actual object)
+String.prototype
+
+Factory Functions
+=> A function that creates objects
+
+New Operator
+The new operator lets developers create an instance of a user-defined object type or of one of the built
+-in object types that has a constructor function.
+
+Classes
+=> Classes are a template for creating objects
+
+4
