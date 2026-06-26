@@ -1,0 +1,4 @@
+Just write this in the terminal
+mysql -u root -p
+
+alternate way is use schema.sql (write source schema.sql in the terminal to run it when you entered mysql environment);

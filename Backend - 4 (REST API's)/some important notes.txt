@@ -1,0 +1,9 @@
+All about method override
+
+1. The method-override Express Middleware (Most Common)In web development, 
+the method-override package is an Express middleware used to turn simple POST requests into PUT, PATCH, or DELETE requests.
+The Problem It SolvesStandard HTML5 forms (<form>) only natively support GET and POST methods.
+ If you want to build a traditional server-side rendered application (e.g., using EJS or Pug templates) and need a user to delete an item via a button click, 
+a standard form cannot directly send a DELETE request.How 
+It WorksThe method-override middleware intercepts the incoming POST request, 
+inspects a designated query string parameter, hidden form field, or HTTP header, and replaces the request's HTTP verb on the backend.
