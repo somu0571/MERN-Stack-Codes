@@ -1,0 +1,1 @@
+@apply is used to force main css for changes if tailwind css is applied before
